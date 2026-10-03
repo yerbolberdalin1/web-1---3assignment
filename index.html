@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ErbaPortfolio - Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">Erba<span>Portfolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="media-queries.html">Tasks 0–1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bootstrap-demo.html">Task 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container-fluid portfolio-layout">
+    <div class="row g-0">
+        <main class="col-12 col-lg-9 main-content">
+            <h1>My Portfolio</h1>
+            <p class="desktop-note">Selected commercial and personal projects.</p>
+            <section id="projects" class="projects-section">
+                <h2>My Projects</h2>
+                
+                <div class="row g-4">
+                <div class="col-12 col-md-6 col-lg-4"><article class="project-card h-100">
+                        <img src="./images/smart.png" alt="SMART Аренда">
+                        <h3>SMART Rent</h3>
+                        <p>Real estate rental service (apartments, houses, rooms) across Kazakhstan. Quick communication via WhatsApp and Instagram.</p>
+                        <a class="project-link" href="https://smarts-nine.vercel.app/" target="_blank" rel="noopener noreferrer">View Website</a>
+                    </article></div>
+                <div class="col-12 col-md-6 col-lg-4"><article class="project-card h-100">
+                        <img src="./images/giggles.png" alt="Giggles">
+                        <h3>Giggles</h3>
+                        <p>Landing page for a universal wet wipes brand. Commercial project built with React/Vite.</p>
+                        <a class="project-link" href="https://giggles-beta.vercel.app/" target="_blank" rel="noopener noreferrer">View Website</a>
+                    </article></div>
+                <div class="col-12 col-md-6 col-lg-4"><article class="project-card h-100">
+                        <img src="./images/gpservice.png" alt="GP Service">
+                        <h3>GP Service Shymkent</h3>
+                        <p>Comprehensive moving and rigging services. B2B and B2C logistics platform.</p>
+                        <a class="project-link" href="https://gp-service-zeta.vercel.app/" target="_blank" rel="noopener noreferrer">View Website</a>
+                    </article></div>
+                <div class="col-12 col-md-6 col-lg-4"><article class="project-card h-100">
+                        <img src="./images/produp.png" alt="PRODUP">
+                        <h3>PRODUP</h3>
+                        <p>Creative agency website (in development). AI, Web, Content, Marketing, and Branding.</p>
+                        <a class="project-link" href="https://club-prototype-psi.vercel.app/en/services" target="_blank" rel="noopener noreferrer">View Website</a>
+                    </article></div>
+                </div>
+            </section>
+            <section id="gallery" class="gallery-section">
+                <h2>Tech &amp; Platforms Gallery</h2>
+                <div class="gallery-container">
+                    <div class="gallery-item"><img src="./images/html5.svg" alt="HTML5"><div class="caption">HTML5</div></div>
+                    <div class="gallery-item"><img src="./images/css3.svg" alt="CSS3"><div class="caption">CSS3</div></div>
+                    <div class="gallery-item"><img src="./images/javascript.svg" alt="JavaScript"><div class="caption">JavaScript</div></div>
+                    <div class="gallery-item"><img src="./images/typescript.svg" alt="TypeScript"><div class="caption">TypeScript</div></div>
+                    <div class="gallery-item"><img src="./images/react.svg" alt="React"><div class="caption">React</div></div>
+                    <div class="gallery-item"><img src="./images/nextjs.svg" alt="Next.js"><div class="caption">Next.js</div></div>
+                    <div class="gallery-item"><img src="./images/python.svg" alt="Python"><div class="caption">Python</div></div>
+                    <div class="gallery-item"><img src="./images/figma.svg" alt="Figma"><div class="caption">Figma</div></div>
+                    <div class="gallery-item"><img src="./images/github.svg" alt="GitHub"><div class="caption">GitHub</div></div>
+                </div>
+            </section>
+        </main>
+        <aside class="col-12 col-lg-3 sidebar" id="about">
+            <h2>About</h2>
+            <p>Hello! I am a 2nd-year student at Astana IT University, specializing in web development and creating commercial websites.</p>
+            <p>Skills: HTML, CSS, JavaScript, React, Python.</p>
+            <section id="contact">
+                <h2>Contact</h2>
+                <p><a href="mailto:jumanji2678@gmail.com">jumanji2678@gmail.com</a></p>
+                <p><a href="https://github.com/yerbolberdalin1" target="_blank" rel="noopener noreferrer">GitHub: yerbolberdalin1</a></p>
+                <p><a href="tel:+77765098063">87765098063</a></p>
+            </section>
+        </aside>
+    </div>
+</div>
+<footer class="footer"><p>&copy; 2026 Berdalin Yerbol - Astana IT University</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2 — Bootstrap Grid - Assignment 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" aria-label="Main navigation">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">Erba<span>Portfolio</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="mainMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="media-queries.html">Tasks 0–1</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bootstrap-demo.html">Task 2</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="demo-main container-fluid">
+    <h1>Task 2: Bootstrap Responsive Columns</h1>
+    <p>Three equal columns on desktop, two then one on tablet, and a vertical stack on mobile.</p>
+    
+    <div class="row g-4">
+        <div class="col-12 col-md-6 col-lg-4"><section class="demo-box"><h2>HTML</h2><p>Structure the page with meaningful headings and sections.</p></section></div>
+        <div class="col-12 col-md-6 col-lg-4"><section class="demo-box"><h2>CSS</h2><p>Style the page and adapt the layout to the screen.</p></section></div>
+        <div class="col-12 col-md-6 col-lg-4"><section class="demo-box"><h2>Bootstrap</h2><p>Arrange content with a responsive 12-column grid.</p></section></div>
+    </div>
+</main>
+<footer class="footer"><p>&copy; 2026 Berdalin Yerbol - Astana IT University</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>

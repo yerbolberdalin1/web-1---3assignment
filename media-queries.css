@@ -1,0 +1,40 @@
+
+* { box-sizing: border-box; }
+body { margin: 0; font: 16px/1.6 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #f4f4f9; color: #333; }
+.header, .footer { background: #2c3e50; color: white; padding: 1rem; }
+.header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 1rem; }
+.header a { color: white; text-decoration: none; }
+.logo { font-size: 1.5rem; font-weight: bold; }
+.logo span { color: #3498db; }
+nav { display: flex; flex-wrap: wrap; gap: 1rem; }
+.demo-main { padding: 1rem; min-height: calc(100vh - 150px); }
+section { margin-bottom: 2rem; }
+h1, h2, h3 { color: #2c3e50; line-height: 1.2; }
+h1 { font-size: 28px; }
+h2 { font-size: 22px; }
+h3 { font-size: 20px; }
+.typography-demo p { font-size: 16px; }
+
+.boxes { display: grid; grid-template-columns: 1fr; gap: 1rem; }
+.demo-box { padding: 1.5rem; background: white; border-top: 4px solid #3498db; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,.1); }
+.demo-box h3 { margin-top: 0; }
+.demo-box p { margin-bottom: 0; }
+.footer { text-align: center; }
+.footer p { margin: 0; }
+a:focus-visible { outline: 3px solid #3498db; outline-offset: 3px; }
+
+@media (min-width: 768px) {
+  .boxes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .demo-main { padding: 1.5rem; }
+  h1 { font-size: 32px; }
+  h2 { font-size: 26px; }
+  .typography-demo p { font-size: 18px; }
+}
+
+@media (min-width: 992px) {
+  .boxes { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .header, .demo-main { padding: 2rem; }
+  h1 { font-size: 36px; }
+  h2 { font-size: 30px; }
+  .typography-demo p { font-size: 20px; }
+}
